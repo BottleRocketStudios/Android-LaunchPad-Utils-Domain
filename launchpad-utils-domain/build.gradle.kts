@@ -47,7 +47,7 @@ afterEvaluate {
             register<MavenPublication>("release") {
                 groupId = "com.github.BottleRocketStudios"
                 artifactId = "Android-LaunchPad-Utils-Domain"
-                version = "0.0.1"
+                version = "0.0.2"
 
                 afterEvaluate {
                     from(components["release"])
